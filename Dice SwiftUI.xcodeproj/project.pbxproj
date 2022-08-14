@@ -11,6 +11,7 @@
 		F75ACDAC28A903D1009FFAEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75ACDAB28A903D1009FFAEA /* ContentView.swift */; };
 		F75ACDAE28A903D2009FFAEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75ACDAD28A903D2009FFAEA /* Assets.xcassets */; };
 		F75ACDB128A903D2009FFAEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75ACDB028A903D2009FFAEA /* Preview Assets.xcassets */; };
+		F75ACDBD28A93255009FFAEA /* BungeeInline-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F75ACDBC28A93255009FFAEA /* BungeeInline-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		F75ACDAB28A903D1009FFAEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F75ACDAD28A903D2009FFAEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F75ACDB028A903D2009FFAEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F75ACDBB28A92F03009FFAEA /* Dice-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Dice-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F75ACDBC28A93255009FFAEA /* BungeeInline-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BungeeInline-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +54,11 @@
 		F75ACDA828A903D1009FFAEA /* Dice SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F75ACDBB28A92F03009FFAEA /* Dice-SwiftUI-Info.plist */,
 				F75ACDA928A903D1009FFAEA /* Dice_SwiftUIApp.swift */,
 				F75ACDAB28A903D1009FFAEA /* ContentView.swift */,
 				F75ACDAD28A903D2009FFAEA /* Assets.xcassets */,
+				F75ACDB728A92CFF009FFAEA /* Fonts */,
 				F75ACDAF28A903D2009FFAEA /* Preview Content */,
 			);
 			path = "Dice SwiftUI";
@@ -65,6 +70,14 @@
 				F75ACDB028A903D2009FFAEA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F75ACDB728A92CFF009FFAEA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F75ACDBC28A93255009FFAEA /* BungeeInline-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F75ACDBD28A93255009FFAEA /* BungeeInline-Regular.ttf in Resources */,
 				F75ACDB128A903D2009FFAEA /* Preview Assets.xcassets in Resources */,
 				F75ACDAE28A903D2009FFAEA /* Assets.xcassets in Resources */,
 			);
@@ -270,6 +284,7 @@
 				DEVELOPMENT_TEAM = ASKBC27NSG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dice-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +314,7 @@
 				DEVELOPMENT_TEAM = ASKBC27NSG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dice-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
