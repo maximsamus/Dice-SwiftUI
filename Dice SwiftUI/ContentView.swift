@@ -21,15 +21,11 @@ struct ContentView: View {
                     .overlay(Circle()
                         .stroke(Color.black, lineWidth: 5))
                     .padding()
-                Text("Maxim Samus")
-                    .font(Font.custom("BungeeInline-Regular", size: 50))
-                    .fontWeight(.bold)
-                    .foregroundColor(.black)
-                Text("Ios Developer")
-                    .font(Font.custom("BungeeInline-Regular", size: 35))
-                    .fontWeight(.bold)
-                    .foregroundColor(.black)
+                TextView(text: "Maxim Samus")
+                TextView(text: "Ios Developer")
                     .padding()
+                InfoCellView(imageName: "phone.fill", text: "+90 534 7821195")
+                InfoCellView(imageName: "envelope.fill", text: "maxim@gmail.com")
             }
         }
     }
@@ -40,4 +36,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView().previewDevice(PreviewDevice(rawValue: "iPhone SE"))
     }
 }
-
