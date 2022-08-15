@@ -1,4 +1,4 @@
-# Dice-SwiftUI
+# SwiftUI
 ____
 * SwiftUI
 
